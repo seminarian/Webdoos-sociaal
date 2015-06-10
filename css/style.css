@@ -1,0 +1,48 @@
+/*.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}*/
+.row {
+	width:100%;
+	max-width:100%;
+}
+
+.tags {
+	font-size:12px;
+}
+
+.by {
+	font-size: 12px;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: #13a0cf;
+  background-image: url("../assets/orchestra-of-bubbles.svg");
+  background-position: center -248px;
+  background-repeat: no-repeat;
+  color: #e6f5fa;
+  font-family: "nerislight";
+  font-size: 1.6rem;
+  padding: 0;
+}
+
+h1, h2 {
+	color: #e6f5fa;
+}
+h1 {
+	text-align: center;
+}
+
+table tr:nth-of-type(even) {
+    background-color: transparent !important;
+}
+
+table tr:nth-of-type(even) {
+background: #f9f9f9;
+}
+
+#spotlight {
+  display: none;
+}
